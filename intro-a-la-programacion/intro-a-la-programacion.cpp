@@ -5,10 +5,14 @@
 using namespace std;
 
 int main(){
-    int numeroDeCoches[24];
-    int r=2;
-    numeroDeCoches[r]=23;
-    cout<<nuemeroDeCoches;
+    int num[]={1,2,3,4,5};
+    int suma=0;
+
+    for(int i=0;i<5;i++){
+        suma=suma+num[i];//10
+    }
+
+    cout<<"La suma del arreglo es de: "<<suma<<endl;
 
     return 0;
     
