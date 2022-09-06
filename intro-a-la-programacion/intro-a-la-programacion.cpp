@@ -2,19 +2,17 @@
 //
 
 #include <iostream>
+#include<stdlib.h>
 using namespace std;
 
+int suma(int num1, int num2, int num3);
+
 int main(){
-    int num[]={1,2,3,4,5};
-    int suma=0;
+	int resultado=suma(5,10,15);
 
-    for(int i=0;i<5;i++){
-        suma=suma+num[i];//10
-    }
-
-    cout<<"La suma del arreglo es de: "<<suma<<endl;
-
-    return 0;
-    
+	cout<<resultado<<endl;
 }
 
+int suma(int num1, int num2, int num3){
+	return num1+num2+num3;
+}
