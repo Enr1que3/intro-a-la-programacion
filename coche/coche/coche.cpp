@@ -4,12 +4,32 @@
 #include <iostream>
 using namespace std;
 
-class coche {
-    int doors = 4;
+class Coche {
+    int doors;
+
+    Coche(int);
 };
+
+Coche::Coche(int _doors) {
+    doors = _doors;
+}
+
+int Doors(int incrementarPuertas) {
+    return incrementarPuertas + 1;
+}
 
 
 int main(){
-    cout << "Hello World!\n";
+    string r;
+    int incrementarPuertas;
+    do {
+        do{
+            cout << "¿Agregar puerta al carro? (s/n)";
+            cin >> r;
+
+        } while ();
+        
+    } while ();
+
 }
 
