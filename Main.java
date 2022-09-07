@@ -6,11 +6,8 @@ public class Main{
         BufferedReader bufEntrada = new BufferedReader(new InputStreamReader(System . in));
 
         String respuesta;
-
         int incremPuer;
-
         incremPuer = 0;
-
         Coche miCoche = new Coche(incremPuer);
 
         do {
@@ -19,36 +16,25 @@ public class Main{
                 System.out.print("agregar puerta al coche? (s/n): ");
 
                 respuesta = bufEntrada.readLine();
-
                 respuesta = respuesta.toLowerCase();
 
             } while (!(respuesta.equals("s") || respuesta.equals("n")));
 
             if (respuesta.equals("s")) {
     
-                // crear objeto de clase coche
                 incremPuer=miCoche.puertas(incremPuer);
-                // Imprimir mensaje
-
                 System.out.println("Número de puertas que tiene el objeto: "+incremPuer);
 
             }
-
         } while (!respuesta.equals("n"));
-
     }
-
 }
-
-    // clase Coche 
 
 class Coche {
    int puertas;
-
    Coche (int p) {
 
         puertas=p;
-
     }
    int puertas(int incremPuer){
 
