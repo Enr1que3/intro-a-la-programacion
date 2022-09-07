@@ -7,12 +7,8 @@ using namespace std;
 class Coche {
     int doors;
 
-    Coche(int);
 };
 
-Coche::Coche(int _doors) {
-    doors = _doors;
-}
 
 int Doors(int incrementarPuertas) {
     return incrementarPuertas + 1;
@@ -23,12 +19,12 @@ int main(){
     string r;
     int incrementarPuertas;
     do {
-        do{
+        do {
             cout << "¿Agregar puerta al carro? (s/n)";
-            cin >> r;
+            cin >> r; 
 
         } while ();
-        
+
     } while ();
 
 }
