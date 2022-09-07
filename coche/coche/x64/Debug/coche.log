@@ -1,0 +1,3 @@
+﻿  coche.cpp
+C:\Users\ECG99\OneDrive\Documentos\GitHub\intro-a-la-programacion\coche\coche\coche.cpp(24,9): warning C4101: 'incrementarPuertas': variable local sin referencia
+  coche.vcxproj -> C:\Users\ECG99\OneDrive\Documentos\GitHub\intro-a-la-programacion\coche\x64\Debug\coche.exe
