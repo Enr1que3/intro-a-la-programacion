@@ -17,19 +17,14 @@ public class Main{
 
             do {
                 System.out.print("agregar puerta al coche? (s/n): ");
-
                 respuesta = bufEntrada.readLine();
-
                 respuesta = respuesta.toLowerCase();
 
             } while (!(respuesta.equals("s") || respuesta.equals("n")));
 
             if (respuesta.equals("s")) {
     
-                // crear objeto de clase coche
                 incremPuer=miCoche.puertas(incremPuer);
-                // Imprimir mensaje
-
                 System.out.println("Número de puertas que tiene el objeto: "+incremPuer);
 
             }
@@ -39,8 +34,6 @@ public class Main{
     }
 
 }
-
-    // clase Coche 
 
 class Coche {
    int puertas;
